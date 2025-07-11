@@ -177,20 +177,6 @@ img{
     max-width: 600px; 
     line-height: 1.5;
 }
-
-/* .get-started-button {
-    background-color: #4e47ff; 
-    color: #ffffff; 
-    padding: 15px 30px; 
-    border: none; 
-    border-radius: 8px; 
-    font-size: 1em; 
-    cursor: pointer; 
-    transition: background-color 0.3s ease; 
-    margin-bottom: 50px; 
-} */
-
-
 .webflow-conf-image-container {
     width: 100%;
     max-width: 900px;
@@ -205,3 +191,73 @@ img{
     height: auto; 
     display: block; 
 }
+
+
+
+
+.contact-section {
+    padding: 80px 60px; 
+}
+
+.contact-content{
+    display: flex; 
+    justify-content: center; 
+    align-items: flex-start; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+    gap: 80px; 
+}
+.contact-text {
+    flex: 1; 
+    min-width: 300px; 
+    text-align: left; 
+    padding: 80px;
+}
+
+.contact-title {
+    font-size: 3.5em; 
+    line-height: 1.2; 
+    margin-bottom: 20px; 
+}
+
+.contact-form-container {
+    flex: 1; 
+    min-width: 300px; 
+    background-color: #ffffff; 
+    border-radius: 12px; 
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column; 
+}
+
+.form-label {
+    font-size: 0.9em;
+    color: #555;
+    margin-bottom: 8px; 
+    font-weight: bold; 
+}
+
+.form-input,
+.form-textarea {
+    width: 100%; 
+    padding: 12px; 
+    margin-bottom: 20px;
+    border: 1px solid #ddd; 
+    border-radius: 6px; 
+    font-size: 1em;
+    box-sizing: border-box; 
+}
+
+.form-textarea {
+    resize: vertical; 
+    min-height: 120px; 
+}
+
+.form-input::placeholder,
+.form-textarea::placeholder {
+    color: #aaa; 
+}
+
+
