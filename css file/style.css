@@ -97,6 +97,7 @@ img{
   border-radius: 48px;
 }
 
+/* productive-user-part */
 
 .productive-text-title{
   color: rgb(37, 36, 50,1);
@@ -154,7 +155,7 @@ img{
    margin: 20px 0;
 }
 
-
+/* focus-part */
 .ready-to-focus {
     text-align: center; 
     padding: 80px 20px; 
@@ -193,7 +194,7 @@ img{
 }
 
 
-
+/* from-style */
 
 .contact-section {
     padding: 80px 60px; 
@@ -260,4 +261,57 @@ img{
     color: #aaa; 
 }
 
+
+/* footer-style */
+
+
+.main-footer {
+    background-color: #f8f8f8; 
+    padding: 60px 20px;
+    text-align: center; 
+}
+
+.footer-content {
+    max-width: 800px; 
+    margin: 0 auto; 
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    gap: 20px; 
+}
+
+.footer-logo {
+    font-size: 100px; 
+    font-weight: bolder;
+    font-family: inter;
+    color: rgba(78, 71, 255, 1);
+    margin-bottom: 10px; 
+
+
+}
+
+.footer-description {
+    font-size: 1em; 
+    color:rgba(137, 135, 161, 1); 
+    line-height: 1.6; 
+    margin-bottom: 30px; 
+    max-width: 600px; 
+}
+
+.footer-nav-list {
+    list-style: none;
+    padding: 0; 
+    margin: 0; 
+    display: flex; 
+    gap: 30px; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+}
+
+.footer-nav-link {
+    text-decoration: none; 
+    color: rgba(137, 135, 161, 1);
+    font-size: 1.1em; 
+    transition: color 0.3s ease; 
+}
 
