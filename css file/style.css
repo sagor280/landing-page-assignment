@@ -35,13 +35,22 @@ nav{
 
 }
 
-.btn-primary{
-  background-color: rgba(78, 71, 255, 1);
-  padding: 12px 36px;
-  color: white;
-  border-radius: 12px;
-  border: none;
+.btn-primary {
+    background-color: #4e47ff;
+    color: #ffffff;
+    padding: 15px 30px; 
+    border: none;
+    border-radius: 8px; 
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 50px;
 }
+
+.btn-primary:hover {
+    background-color: #3a33cc; 
+}
+
 section{
   padding: 158px 0;
 }
@@ -114,7 +123,6 @@ img{
   color:rgb(78, 71, 255) ;
 }
 
-
 .review-info{
   display: flex;
   align-items: center;
@@ -136,12 +144,64 @@ img{
 .stars{
   margin-top: 50px;
   border-radius: 24px;
-  background:  rgba(78, 71, 255, 0.1);
   padding: 20px;
+  background-color:  rgba(78, 71, 255, 0.1);
 }
 .review-title {
   margin: 20px 0;
 }
 .review-info{
    margin: 20px 0;
+}
+
+
+.ready-to-focus {
+    text-align: center; 
+    padding: 80px 20px; 
+    background-color: #f8f8f8; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.ready-title {
+    font-size: 2.8em; 
+    color: #333; 
+    margin-bottom: 15px; 
+}
+
+.ready-subtitle {
+    font-size: 1.1em; 
+    color: #555; 
+    margin-bottom: 30px; 
+    max-width: 600px; 
+    line-height: 1.5;
+}
+
+/* .get-started-button {
+    background-color: #4e47ff; 
+    color: #ffffff; 
+    padding: 15px 30px; 
+    border: none; 
+    border-radius: 8px; 
+    font-size: 1em; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+    margin-bottom: 50px; 
+} */
+
+
+.webflow-conf-image-container {
+    width: 100%;
+    max-width: 900px;
+    margin-top: 30px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 12px; 
+    overflow: hidden; 
+}
+
+.webflow-conf-image {
+    width: 100%; 
+    height: auto; 
+    display: block; 
 }
